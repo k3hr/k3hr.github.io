@@ -1,44 +1,61 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>Hello World !
-<header>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</header>
-
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>CV Pierre LELEVÉ</title>
+    <script src="https://kit.fontawesome.com/0636a9848f.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-4" style="background-color: aqua;">
-        <img src="portrait.png" alt="Portrait" class="img-fluid" style="max-width: 50%;">
-      </div>
-      <div class="col-8" style="background-color: brown;">oersiygospiuh</div>
+    <div id="leftColumn">
+        <img src="./portrait.png" alt="A picture of me" id="portrait" />
+        <h2 id="contactTitle">CONTACT</h2>
+        <p class=contactInformation>Adresse</p>
+
+        <p class=contactInformation>Angers, France</p>
+        <br />
+        <p class=contactInformation>Email</p>
+
+        <p class=contactInformation>pierre.leleve@gmail.com</p>
+        <br />
+        <p class=contactInformation>Site web</p>
+
+        <p class=contactInformation>cv.leleve.dev</p>
+        <br />
+        <h2 id="aproposTitle">À PROPOS DE MOI</h2>
+        <p id="apropos">Après une première expérience positive dans l’administration systèmes, j'ai souhaité changer de branche et me
+            reconvertir dans le développement web.
+            Armé de ma soif d’apprendre et de nombreuses connaissances en informatique pouvant se transposer dans le
+            développement, je travaille actuellement en tant que développeur web fullstack en alternance chez <a href="https://www.effidic.fr/">Effidic</a>.
+        </p>
+        <h2 id="loisirsTitle">LOISIRS</h2>
+        <i id="iconRead" class="fas fa-book-reader fa-3x"></i>
+        <i id="iconMusic" class="fas fa-music fa-3x"></i>
     </div>
-  </div>
+
+    <div id="rightColumn">
+        <h1><span id="titleSpan">PIERRE </span><span>LELEVE</span></h1>
+        <h2 id="subtitle">Développeur web</h2>
+        <i id="iconHat" class="fas fa-graduation-cap fa-3x"></i>
+        <h3 class="sectionTitle">FORMATION</h3>
+        <hr class="subtitlesLines"/>
+        <dl>
+            <dt>2016-2016
+                <br/>Paris
+            </dt>
+            <dd>Ma formation actuzllez</dd>
+        </dl>
+
+        <i id="iconHat" class="fas fa-briefcase fa-3x"></i>
+        <h3 class="sectionTitle">EXPÉRIENCE PROFESSIONNELLE</h3>
+        <hr class="subtitlesLines"/>
+
+        <i id="iconHat" class="fas fa-pen-fancy fa-3x"></i>
+        <h3 class="sectionTitle">RECOMMANDATIONS</h3>
+        <hr class="subtitlesLines"/>
+    </div>
 </body>
 
-<footer>
-
-</footer>
+</html>

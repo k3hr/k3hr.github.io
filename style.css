@@ -1,0 +1,109 @@
+body {
+    font-family: Helvetica;
+    color: #404040;
+}
+
+#leftColumn {
+    margin-left: 15%;
+    background-color: #FFC33F;
+    width: 17%;
+    float: left;
+}
+#portrait {
+    float: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+#contactTitle {
+    text-align: center;
+    background-color: #404040;
+    color: #FFC33F;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#aproposTitle {
+    text-align: center;
+    background-color: #404040;
+    color: #FFC33F;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#loisirsTitle {
+    text-align: center;
+    background-color: #404040;
+    color: #FFC33F;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contactInformation{
+    color: #404040;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    font-weight: 540;
+}
+#apropos{
+    color: #404040;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 400;
+}
+#iconRead {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#iconMusic {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#rightColumn {
+    width: 50%;
+    float: right;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 9%;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+#titleSpan {
+    color: #FFC33F;
+}
+#subtitle {
+    margin-left: 9%;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+#iconHat {
+    float: left;
+    color : #FFC33F;
+    margin-left: 5%;
+}
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+}
+
+.subtitlesLines {
+    display: block;
+    margin-top: 0;
+    color : #FFC33F;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+}
