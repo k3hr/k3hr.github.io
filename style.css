@@ -97,6 +97,8 @@ h1 {
     font-weight: 100;
     margin-left: 15%;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+
 }
 
 .subtitlesLines {
@@ -106,4 +108,22 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3rem;
+}
+
+.leftContent {
+float: left;
+width: 40%;
+margin-left: 5rem;
+height: 15rem;
+}
+
+.rightContent {
+float: right;
+width: 50%;
+height: 15rem;
+
+}
+
+#expérienceProfessionnelleDiv {
+    margin-top: 3rem;
 }
