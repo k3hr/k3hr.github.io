@@ -8,6 +8,7 @@ body {
     background-color: #FFC33F;
     width: 17%;
     float: left;
+    height: 100%;
 }
 #portrait {
     float: center;
@@ -25,7 +26,7 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-#aproposTitle {
+#aboutTitle {
     text-align: center;
     background-color: #404040;
     color: #FFC33F;
@@ -47,7 +48,7 @@ body {
     margin-left: 2rem;
     font-weight: 540;
 }
-#apropos{
+#about{
     color: #404040;
     margin-bottom: 0rem;
     margin-top: 2rem;
@@ -110,20 +111,22 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.leftContent {
-float: left;
-width: 40%;
-margin-left: 5rem;
-height: 15rem;
-}
 
-.rightContent {
-float: right;
-width: 50%;
-height: 15rem;
-
-}
-
-#expérienceProfessionnelleDiv {
+.expérienceProfessionnelleDiv {
     margin-top: 3rem;
 }
+
+.sectionContainer {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.leftInnerContainer {
+    flex: 40%;
+}
+
+.rightInnerContainer  {
+    flex: 60%;
+}
+
