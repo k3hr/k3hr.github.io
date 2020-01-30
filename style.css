@@ -11,7 +11,6 @@ body {
     height: 75rem;
 }
 #portrait {
-    float: center;
     height: 200px;
     width: 200px;
     margin-left: 15%;
@@ -46,7 +45,7 @@ body {
     margin-bottom: 0rem;
     margin-top: 0rem;
     margin-left: 2rem;
-    font-weight: 540;
+    font-weight: 500;
 }
 #about{
     color: #404040;
@@ -93,6 +92,17 @@ h1 {
     color : #FFC33F;
     margin-left: 5%;
 }
+#iconBriefCase {
+    float: left;
+    color : #FFC33F;
+    margin-left: 5%;
+}
+#iconPen {
+    float: left;
+    color : #FFC33F;
+    margin-left: 5%;
+}
+
 .sectionTitle {
     font-size: 2rem;
     font-weight: 100;
