@@ -8,7 +8,7 @@ body {
     background-color: #FFC33F;
     width: 17%;
     float: left;
-    height: 100%;
+    height: 75rem;
 }
 #portrait {
     float: center;
@@ -109,6 +109,8 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3rem;
+    border: solid;
+    border-width: 0.1rem;
 }
 
 
@@ -124,6 +126,7 @@ h1 {
 
 .leftInnerContainer {
     flex: 40%;
+
 }
 
 .rightInnerContainer  {
