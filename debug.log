@@ -7,3 +7,6 @@
 [0130/153404.015:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Pierre LELEVE\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
 [0130/153404.021:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
 [0130/153404.023:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Pierre LELEVE\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
+[0131/142102.419:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Pierre LELEVE\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
+[0131/142102.426:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0131/142102.428:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Pierre LELEVE\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)

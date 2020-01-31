@@ -159,7 +159,21 @@ h1 {
     flex: 60%;
 }
 
+.leftCell {
+    width: 25%;
+    vertical-align: top;
+    padding-top: 1rem;
+}
+.rightCell {
+    width: 75%;
+    vertical-align: top;
+    padding-right:  3%;
+}
+
 .fb-like {
     margin-bottom: 2rem;
     margin-left: 0%;
+}
+.bulletCircled {
+    color: #FFC33F;
 }
