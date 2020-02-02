@@ -176,4 +176,9 @@ h1 {
 }
 .bulletCircled {
     color: #FFC33F;
+    font-size: 1.5rem;
+}
+
+.recommendationLeftCell {
+    width: 65%;
 }
