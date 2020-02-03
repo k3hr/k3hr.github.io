@@ -17,6 +17,7 @@ body {
     padding-right: 15%;
     padding-top: 15%;
     padding-bottom: 5%;
+    object-fit: fill
 }
 #contactTitle {
     text-align: center;
@@ -181,4 +182,37 @@ h1 {
 
 .recommendationCell {
     width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+    #portrait {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #portrait {
+        max-height: 35px;
+        max-width: 35px;
+    }
+    #leftColumn {
+        margin-left: 0;
+        width: 25%;
+    }
+    #contactTitle {
+        font-size: x-small;
+    }
+    .contactInformation {
+        font-size: xx-small;
+        margin-left: 5%;
+    }
+    #aboutTitle {
+        font-size: xx-small;
+    }
+    #aboutContent {
+        font-size: xx-small;
+        margin-left: 5%;
+    }
 }
