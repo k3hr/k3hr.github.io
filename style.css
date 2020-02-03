@@ -55,7 +55,7 @@ body {
 #aboutContent {
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 20rem;
 }
 #iconRead {
     margin-left: 4rem;
@@ -180,5 +180,5 @@ h1 {
 }
 
 .recommendationLeftCell {
-    width: 65%;
+    width: 70%;
 }
