@@ -227,7 +227,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 411px) {
     #portrait {
         max-height: 50px;
         max-width: 50px;
@@ -296,6 +296,9 @@ h1 {
     #titleLine {
         margin-bottom: 1rem;
         margin-left: 1rem;
+    }
+    .subtitlesLines {
+margin-bottom: 1rem;
     }
     .sectionTitle {
         font-size: medium;
