@@ -8,8 +8,9 @@ body {
     background-color: #FFC33F;
     width: 17%;
     float: left;
-    height: 100rem;
+    column-fill: auto;
 }
+
 #portrait {
     max-height: 200px;
     max-width: 200px;
@@ -19,6 +20,7 @@ body {
     padding-bottom: 5%;
     object-fit: fill
 }
+
 #contactTitle {
     text-align: center;
     background-color: #404040;
@@ -26,6 +28,7 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
 #aboutTitle {
     text-align: center;
     background-color: #404040;
@@ -33,6 +36,7 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
 #hobbyTitle {
     text-align: center;
     background-color: #404040;
@@ -41,7 +45,7 @@ body {
     padding-bottom: 0.5rem;
 }
 
-.contactInformation{
+.contactInformation {
     color: #404040;
     margin-bottom: 0rem;
     margin-top: 0rem;
@@ -49,21 +53,25 @@ body {
     font-weight: 500;
     overflow-wrap: break-word;
 }
-#about{
+
+#about {
     color: #404040;
     margin-bottom: 0rem;
     font-weight: 400;
 }
+
 #aboutContent {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 20rem;
 }
+
 #iconRead {
     margin-left: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 #iconMusic {
     margin-left: 4rem;
     margin-top: 1rem;
@@ -76,6 +84,7 @@ body {
     margin-left: 3%;
     margin-right: 15%;
 }
+
 h1 {
     font-size: 4rem;
     font-weight: 500;
@@ -83,21 +92,25 @@ h1 {
     margin-top: 15%;
     margin-bottom: 0;
 }
+
 #title {
     margin-left: 2.9rem;
 }
+
 #titleSpan {
     color: #FFC33F;
 }
+
 #subtitle {
     margin-left: 3.1rem;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #titleLine {
     display: block;
     margin-top: 0;
-    color : #FFC33F;
+    color: #FFC33F;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 11rem;
@@ -105,19 +118,22 @@ h1 {
     border-width: 0.075rem;
     width: 4.5rem;
 }
+
 #iconHat {
     float: left;
-    color : #FFC33F;
+    color: #FFC33F;
     margin-left: 5%;
 }
+
 #iconBriefCase {
     float: left;
-    color : #FFC33F;
+    color: #FFC33F;
     margin-left: 5%;
 }
+
 #iconPen {
     float: left;
-    color : #FFC33F;
+    color: #FFC33F;
     margin-left: 5%;
 }
 
@@ -133,7 +149,7 @@ h1 {
 .subtitlesLines {
     display: block;
     margin-top: 0;
-    color : #FFC33F;
+    color: #FFC33F;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3rem;
@@ -157,7 +173,7 @@ h1 {
 
 }
 
-.rightInnerContainer  {
+.rightInnerContainer {
     flex: 60%;
 }
 
@@ -166,16 +182,18 @@ h1 {
     vertical-align: top;
     padding-top: 1rem;
 }
+
 .rightCell {
     width: 75%;
     vertical-align: top;
-    padding-right:  3%;
+    padding-right: 3%;
 }
 
 .fb-like {
     margin-bottom: 2rem;
     margin-left: 0%;
 }
+
 .bulletCircled {
     color: #FFC33F;
     font-size: 1.5rem;
@@ -183,11 +201,12 @@ h1 {
 
 #recommendationCellLeft {
     width: 75%;
-    margin : 0%;
+    margin: 0%;
 }
+
 #recommendationCellRight {
     width: 75%;
-    margin : 0%;
+    margin: 0%;
 }
 
 
@@ -197,29 +216,94 @@ h1 {
         max-width: 75px;
     }
 
+    .contactInformation {
+        font-size: medium;
+        margin-left: 0.5rem;
+    }
+
+    #aboutContent {
+        font-size: medium;
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 320px) {
     #portrait {
-        max-height: 35px;
-        max-width: 35px;
+        max-height: 50px;
+        max-width: 50px;
     }
+
+    .contactInformation {
+        font-size: x-small;
+        margin-left: 0.5rem;
+    }
+
     #leftColumn {
         margin-left: 0;
         width: 25%;
+        column-fill: auto;
     }
+
     #contactTitle {
         font-size: x-small;
     }
-    .contactInformation {
-        font-size: xx-small;
-        margin-left: 0.5rem;
-    }
+
     #aboutTitle {
         font-size: xx-small;
     }
+
     #aboutContent {
         font-size: xx-small;
         margin-left: 5%;
     }
+
+    #iconRead {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #iconMusic {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #hobbyTitle {
+        font-size: x-small;
+    }
+
+    #rightColumn {
+        font-size: x-small;
+        width: 57%;
+    }
+
+    #title {
+        margin-left: 0rem;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 0;
+    }
+    #subtitle {
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #titleLine {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .sectionTitle {
+        font-size: medium;
+        font-weight: 100;
+        margin-left: 15%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    
+    }
+    
 }
