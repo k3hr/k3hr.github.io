@@ -1,11 +1,11 @@
 body {
     font-family: Helvetica;
-    color: #404040;
+    color: #424242;
 }
 
 #leftColumn {
     margin-left: 15%;
-    background-color: #FFC33F;
+    background-color: #FFB300;
     width: 17%;
     float: left;
 }
@@ -23,7 +23,7 @@ body {
 #contactTitle {
     text-align: center;
     background-color: #404040;
-    color: #FFC33F;
+    color: #FFB300;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -31,7 +31,7 @@ body {
 #aboutTitle {
     text-align: center;
     background-color: #404040;
-    color: #FFC33F;
+    color: #FFB300;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -39,7 +39,7 @@ body {
 #hobbyTitle {
     text-align: center;
     background-color: #404040;
-    color: #FFC33F;
+    color: #FFB300;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -100,7 +100,7 @@ h1 {
 }
 
 #titleSpan {
-    color: #FFC33F;
+    color: #FFB300;
 }
 
 #subtitle {
@@ -112,7 +112,7 @@ h1 {
 #titleLine {
     display: block;
     margin-top: 0;
-    color: #FFC33F;
+    color: #FFB300;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 11rem;
@@ -123,19 +123,19 @@ h1 {
 
 #iconHat {
     float: left;
-    color: #FFC33F;
+    color: #FFB300;
     margin-left: 5%;
 }
 
 #iconBriefCase {
     float: left;
-    color: #FFC33F;
+    color: #FFB300;
     margin-left: 5%;
 }
 
 #iconPen {
     float: left;
-    color: #FFC33F;
+    color: #FFB300;
     margin-left: 5%;
 }
 
@@ -151,7 +151,7 @@ h1 {
 .subtitlesLines {
     display: block;
     margin-top: 0;
-    color: #FFC33F;
+    color: #FFB300;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3rem;
@@ -214,6 +214,9 @@ h1 {
     #portrait {
         max-height: 160px;
         max-width: 160px;
+    }
+    #filler {
+        margin-bottom: 5rem;
     }
 }
 
@@ -281,6 +284,7 @@ h1 {
     #aboutContent {
         font-size: xx-small;
         margin-left: 5%;
+        margin-bottom: 6rem;
     }
 
     #iconRead {
@@ -335,5 +339,5 @@ h1 {
         font-size: medium;
         margin-bottom: 1rem;
     }
-
+    
 }
