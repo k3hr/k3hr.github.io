@@ -8,11 +8,8 @@ body {
 }
 
 #leftColumn {
-    /* margin-left: 15%; */
-    /* margin-right: 0; */
     background-color: #FFB300;
     width: 17%;
-    /* float: left; */
     overflow: hidden;
     margin: 0px;
     flex: 0 0 auto;
@@ -91,9 +88,6 @@ body {
 
 #rightColumn {
     width: 50%;
-
-    /* margin-left: 3%; */
-    /* margin-right: 15%; */
     overflow: hidden;
     margin: 0px;
     flex: 0 0 auto;
@@ -210,18 +204,21 @@ h1 {
     font-size: 1.5rem;
 }
 
-#recommendationsTable{
+#recommendationContainerDiv {
+    display: flex;
     margin-left: 10%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #recommendationCellLeft {
-    width: 50%;
-    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
 }
 
 #recommendationCellRight {
-    width: 50%;
-    margin: 0%;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1400px) {
@@ -241,6 +238,17 @@ h1 {
         max-width: 120px;
     }
 
+    #leftColumn {
+        margin-left: 0;
+        width: 25%;
+        column-fill: auto;
+    }
+
+    #rightColumn {
+        margin-right: 0;
+        width: 75%;
+    }
+
     .subtitlesLines {
         margin-bottom: 1rem;
     }
@@ -252,6 +260,7 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+
     #portrait {
         max-height: 95px;
         max-width: 95px;
@@ -261,6 +270,11 @@ h1 {
         margin-left: 0;
         width: 25%;
         column-fill: auto;
+
+    }
+
+    #rightColumn {
+        width: 75%;
     }
 
     #titleLine {
@@ -275,33 +289,34 @@ h1 {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
+    body {
+        flex-direction: column;
+    }
+
     #portrait {
-        max-height: 50px;
-        max-width: 50px;
+        max-height: 180px;
+        max-width: 180px;
+        align-self: center;
+        margin: 0;
     }
 
     .contactInformation {
-        font-size: x-small;
         margin-left: 0.5rem;
     }
 
     #leftColumn {
         margin-left: 0;
-        width: 25%;
+        width: 100%;
         column-fill: auto;
+        order: 2;
     }
-
-    #contactTitle {
-        font-size: x-small;
-    }
-
-    #aboutTitle {
-        font-size: xx-small;
+    #rightColumn {
+        width: 100%;
+        margin: 0%;
     }
 
     #aboutContent {
-        font-size: xx-small;
         margin-left: 5%;
         margin-bottom: 6rem;
     }
@@ -318,21 +333,11 @@ h1 {
         margin-bottom: 1rem;
     }
 
-    #hobbyTitle {
-        font-size: x-small;
-    }
-
-    #rightColumn {
-        font-size: x-small;
-        width: 57%;
-    }
-
     #title {
         margin-left: 0rem;
     }
 
     h1 {
-        font-size: 3rem;
         font-weight: 500;
         margin-left: 0%;
         margin-top: 0%;
@@ -355,7 +360,12 @@ h1 {
     }
 
     .sectionTitle {
-        font-size: medium;
         margin-bottom: 1rem;
+        font-size: 1.5rem;
     }
+    #recommendationContainerDiv {
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
 }
